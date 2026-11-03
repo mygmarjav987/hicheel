@@ -1,0 +1,224 @@
+# def quick_sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     pivot = arr[len(arr) // 2]
+#     left = []
+#     middle = []
+#     right = []
+#     for num in arr:
+#         if num < pivot:
+#             left.append(num)
+#         elif num == pivot:
+#             middle.append(num)
+#         else:
+#             right.append(num)
+#     return quick_sort(left) + middle + quick_sort(right)
+# numbers = [8, 3, 1, 7, 0, 10, 2]
+# print(quick_sort(numbers))
+
+#1.     Өсөх дарааллаар эрэмбэлэх
+
+# def quick_sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     pivot = arr[len(arr) // 2]
+#     left = []
+#     middle = []
+#     right = []
+#     for num in arr:
+#         if num < pivot:
+#             left.append(num)
+#         elif num == pivot:
+#             middle.append(num)
+#         else:
+#             right.append(num)
+#     return quick_sort(left) + middle + quick_sort(right)
+# numbers = [8, 3, 1, 7, 4]
+# print(quick_sort(numbers))
+
+#2.      Буурах дарааллаар эрэмбэлэх
+
+# def quick_sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     pivot = arr[len(arr) // 2]
+#     left = []
+#     middle = []
+#     right = []
+#     for num in arr:
+#         if num > pivot:
+#             left.append(num)
+#         elif num == pivot:
+#             middle.append(num)
+#         else:
+#             right.append(num)
+#     return quick_sort(left) + middle + quick_sort(right)
+# numbers = [5, 2, 9, 1, 7]
+# print(quick_sort(numbers))
+
+#3.         Давхардсан тоонуудыг эрэмбэлэх
+
+# def quick_sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     pivot = arr[len(arr) // 2]
+#     left = []
+#     middle = []
+#     right = []
+#     for num in arr:
+#         if num < pivot:
+#             left.append(num)
+#         elif num == pivot:
+#             middle.append(num)
+#         else:
+#             right.append(num)
+#     return quick_sort(left) + middle + quick_sort(right)
+# numbers = [4, 2, 4, 1, 2, 3, 1]
+# print(quick_sort(numbers))
+
+#4.      Сөрөг болон эерэг тоог эрэмбэлэх
+
+# def quick_sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     pivot = arr[len(arr) // 2]
+#     left = []
+#     middle = []
+#     right = []
+#     for num in arr:
+#         if num < pivot:
+#             left.append(num)
+#         elif num == pivot:
+#             middle.append(num)
+#         else:
+#             right.append(num)
+#     return quick_sort(left) + middle + quick_sort(right)
+# numbers = [3, -5, 0, 8, -2, 1]
+# print(quick_sort(numbers))
+
+#5.      Хамгийн бага 3 тоог олох
+
+# def quick_sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     pivot = arr[len(arr) // 2]
+#     left = []
+#     middle = []
+#     right = []
+#     for num in arr:
+#         if num < pivot:
+#             left.append(num)
+#         elif num == pivot:
+#             middle.append(num)
+#         else:
+#             right.append(num)
+#     return quick_sort(left) + middle + quick_sort(right)
+# numbers = [9, 2, 7, 1, 5, 3]
+# print(quick_sort(numbers)[:3])
+
+#6.       Хамгийн их 2 тоог олох
+
+# def quick_sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     pivot = arr[len(arr) // 2]
+#     left = []
+#     middle = []
+#     right = []
+#     for num in arr:
+#         if num > pivot:
+#             left.append(num)
+#         elif num == pivot:
+#             middle.append(num)
+#         else:
+#             right.append(num)
+#     return quick_sort(left) + middle + quick_sort(right)
+# numbers = [4, 9, 1, 7, 3, 8]
+# print(quick_sort(numbers)[:2])
+
+#7.    Оюутнуудыг оноогоор эрэмбэлэх
+
+# def quick_sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     pivot = arr[len(arr) // 2]
+#     left = []
+#     middle = []
+#     right = []
+#     for num in arr:
+#         if num[1] < pivot[1]:
+#             left.append(num)
+#         elif num[1] == pivot[1]:
+#             middle.append(num)
+#         else:
+#             right.append(num)
+#     return quick_sort(left) + middle + quick_sort(right)
+# numbers = [("Bat", 85), ("Bold", 70), ("Saraa", 95), ("Anu", 60)]
+# print(quick_sort(numbers))
+
+#8.    Үгийн уртаар эрэмбэлэх
+
+# def quick_sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     pivot = arr[len(arr) // 2]
+#     left = []
+#     middle = []
+#     right = []
+#     for num in arr:
+#         if len(num) < len(pivot):
+#             left.append(num)
+#         elif len(num) == len(pivot):
+#             middle.append(num)
+#         else:
+#             right.append(num)
+#     return quick_sort(left) + middle + quick_sort(right)
+# numbers = ["banana", "cat", "apple", "hi", "dog"]
+# print(quick_sort(numbers))
+
+#9.     Медиан олох
+
+# def quick_sort(arr):
+#     if len(arr) <= 1:
+#         return arr
+#     pivot = arr[len(arr) // 2]
+#     left = []
+#     middle = []
+#     right = []
+#     for num in arr:
+#         if num < pivot:
+#             left.append(num)
+#         elif num == pivot:
+#             middle.append(num)
+#         else:
+#             right.append(num)
+#     return quick_sort(left) + middle + quick_sort(right)
+# numbers = [7, 1, 5, 3, 9]
+# a = quick_sort(numbers)
+# n =len(a)
+# if n % 2 == 1:
+#     median = a[n // 2]
+# else:
+#     median=(a[n // 2 ] -1)+ a[n // 2] /2
+# print(median)
+    
+#10.     Хоёр массивыг нэгтгэж эрэмбэлэх
+
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = []
+    middle = []
+    right = []
+    for num in arr:
+        if num < pivot:
+            left.append(num)
+        elif num == pivot:
+            middle.append(num)
+        else:
+            right.append(num)
+    return quick_sort(left) + middle + quick_sort(right)
+a = [8, 3, 5]
+b = [2, 9, 1]
+print(quick_sort(a + b))
