@@ -1,0 +1,85 @@
+## selection sort
+
+# numbers = [5, 3, 8, 1, 2]
+# for i in range(len(numbers)-1):
+#     min_index = 1
+#     for j in range(i + 1, len(numbers)):
+#         if numbers[j] < numbers[min_index]:
+#             min_index = j
+#     temp = numbers[i]
+#     numbers[i] = numbers[min_index]
+#     numbers[min_index] = temp
+#     print(numbers)
+
+# 1. Өсөхөөр эрэмбэлэх
+
+# arr = [5, 2, 8, 1, 4]
+# for i in range(len(arr)-1):
+#     min_index = 1
+#     for j in range(i + 1, len(arr)):
+#         if arr[j] < arr[min_index]:
+#             min_index = j
+#     temp = arr[i]
+#     arr[i] = arr[min_index]
+#     arr[min_index] = temp
+#     print(arr)
+
+# 2. Хамгийн бага 3 тоог эрэмбэлэх
+
+# arr = [8, 3, 6, 1, 7, 2]
+# n = len(arr)
+# for i in range(3):
+#     min_idx = i
+#     for j in range(i + 1, n):
+#         if arr[j] < arr [min_idx]:
+#             min_idx = j
+#     temp = arr[i]
+#     arr[i] = arr[min_idx]
+#     arr[min_idx] = temp
+# print(arr)
+
+# 3. Буурахаар эрэмбэлэх
+
+# arr = [4, 9, 1, 7, 3]
+# n = len(arr)
+# for i in range(len(arr)-1):
+#     min_idx = i
+#     for j in range(i + 1, n):
+#         if arr[j] > arr [min_idx]:
+#             min_idx = j
+#     temp = arr[i]
+#     arr[i] = arr[min_idx]
+#     arr[min_idx] = temp
+# print(arr)
+
+# 4. Сөрөг тоотой жагсаалт
+
+# arr = [3, -2, 7, -5, 1]
+# n = len(arr)
+# for i in range(3):
+#     min_idx = i
+#     for j in range(i + 1, n):
+#         if arr[j] < arr [min_idx]:
+#             min_idx = j
+#     temp = arr[i]
+#     arr[i] = arr[min_idx]
+#     arr[min_idx] = temp
+# print(arr)
+
+# 5. Давхардлыг арилгаж эрэмбэлэх
+
+# arr = list(map(int, input().split()))
+# n = list(set(arr))
+# for i in range(len(n) - 1):
+#     min_idx = i
+#     for j in range(i + 1,len(n)):
+#         if arr[j] < arr [min_idx]:
+#             min_idx = j
+#     temp = arr[i]
+#     arr[i] = arr[min_idx]
+#     arr[min_idx] = temp
+# print(n)
+
+# 6. Хамгийн бага утгыг эхэнд байрлуулах
+
+arr = [8, 5, 3, 9, 2]
