@@ -1,0 +1,159 @@
+#            class and object
+# class player:
+#     def _init_(self, name, skins):
+#         self.name = name
+#         self.skins = skins
+# player1 = player("mygaa", 1)
+# player2 = player("fenrir", 1)
+# print(player1.name)
+# print(player1.skins)
+# print(player2.name)
+# print(player2.skins) 
+
+#2.          Хоёр сурагч үүсгэх
+
+# class sdudent:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+# sdudent1 = sdudent("mygmarjav", 20)
+# sdudent2 = sdudent("temuulen", 19)
+# print(sdudent1.name)
+# print(sdudent1.age)
+# print(sdudent2.name)
+# print(sdudent2.age)
+
+#3.          Сурагчийн анги нэмэх
+
+# class sdudent:
+#     def __init__(self, name, age, grade):
+#         self.name = name
+#         self.age = age
+#         self.grade = grade
+# sdudent1 = sdudent("mygmatjav", 20, "sw")
+# print(sdudent1.name)
+# print(sdudent1.age)
+# print(sdudent1.grade)
+
+#4.           Оноо хадгалах
+
+# class sdudent:
+#     def __init__(self, name, score):
+#         self.name = name
+#         self.score = score
+# sdudent1 = sdudent("mygmarjv", 95)
+# sdudent2 = sdudent("bat", 85)
+# print(sdudent1.name)
+# print(sdudent1.score)
+# print(sdudent2.name)
+# print(sdudent2.score)
+
+#5.Сурагчийн оноог нэмэх оноог 5-аар нэмэгдүүл
+
+# class sdudent:
+#     def __init__(self, name, score):
+#         self.name = name
+#         self.score = score
+#     def add_score(self):
+#         self.score += 5
+# sdudent1 = sdudent("bat", 80)
+# sdudent1.add_score()
+# print(sdudent1.score)
+
+#6.       Сурагчийн мэдээлэл хэвлэх method
+
+# class sdudent:
+#     def __init__(self, ner, nas, angi):
+#         self.ner = ner
+#         self.nas = nas
+#         self.angi = angi
+#     def show_info(self):
+#         print(f"ner: {self.ner}")
+#         print(f"nas: {self.nas}")
+#         print(f"angi: {self.angi}")
+# sdudent1 = sdudent("mygmarjav", 20, "sw")
+# sdudent1.show_info()
+
+#7.        Сурагч тэнцсэн эсэхийг шалгах
+
+
+# class Student:
+#     def __init__(self, name, score):
+#         self.name = name
+#         self.score = score
+#     def check_result(self):
+#         if self.score >= 60:
+#             print(self.name + ": tentssen")
+#         else:
+#             print(self.name + ": tentseegui")
+# student1 = Student("bat", 75)
+# student2 = Student("naraa", 45)
+# student1.check_result()
+# student2.check_result()
+
+#8.    Оноо нэмэх оноог 5-аар нэмэгдүүл
+
+# class sdudent:
+#     def __init__(self, name, score):
+#         self.name = name
+#         self.score = score
+#     def add_score(self):
+#         self.score += 5
+# sdudent1 = sdudent("bat", 80)
+# sdudent1.add_score()
+# print(sdudent1.score)
+
+#9.    Нас нэмэх
+
+# class sdudent:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     def add_age(self):
+#         self.age += 1
+# sdudent1 = sdudent("saraa", 18)
+# sdudent1.add_age()
+# print(sdudent1.age)
+
+#10.    Онооны үнэлгээ
+
+# class sdudent:
+#     def __init__(self, name, score):
+#         self.name = name
+#         self.score = score
+#     def get_grade(self):
+#         if 90 <= self.score <= 100:
+#             print(self.name,"a")
+#         elif 80 <= self.score <= 89:
+#             print(self.name,"b")
+#         elif 70 <= self.score <= 79:
+#             print(self.name,"c")
+#         elif 60 <= self.score <= 69:
+#             print(self.name,"d")
+#         elif 0 <= self.score <= 59:
+#             print(self.name,"f")
+#         else:
+#             print("buruu onoo oruulsan")
+# sdudent1 = sdudent("mygmarjav", 100)
+# sdudent1.get_grade()
+# sdudent2 = sdudent("erdembileg", 88)
+# sdudent2.get_grade()
+
+#11.   Ирц бүртгэх
+
+#12.   Хичээлд тэнцэх эсэх
+
+class sdudent:
+    def __init__(self, name, score, irts):
+        self.name = name
+        self.score = score
+        self.irts = irts
+    def check_result(self):
+        if 60 <= self.score and 80 <= self.irts:
+            print(self.name,"tentssn")
+        else:
+            print(self.name,"tentseegui")
+sdudent1 = sdudent("mygmarjav", 100, 90)
+sdudent1.check_result()
+sdudent2 = sdudent("erdembileg", 100, 70)
+sdudent2.check_result()
