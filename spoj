@@ -1,0 +1,624 @@
+#1
+# a, b, c, = map(int, input().split())
+# print(a + b + c)
+
+#2
+# a, b = map(int, input().split())
+# print(a + b)
+
+#3
+# a = int(input())
+# v = a * a * a
+# c = a * a * 6
+# print(v, c)
+
+#4
+# a, b = map(int, input().split())
+# c = a * b
+# d = 2 * (a + b)
+# print(c, d)
+
+#5
+# x = int(input())
+# y = 3 * x - 5
+# print(y)
+
+#6
+# x = int(input())
+# y = x**4-3 * x + 5
+# print(y)
+
+#7
+# x = int(input())
+# print(x%10)
+
+#8
+# x = int(input())
+# print(x // 10%10)
+
+#9
+# x = int(input())
+# print((x // 10) * (x % 10))
+
+#10
+# x = int(input())
+# a = x // 100
+# b = (x // 10) % 10
+# c = x % 10 
+# print(a + b + c)
+
+#11
+# x = int(input())
+# m = x // 60
+# s = x % 60
+# print(m , s)
+
+#12
+# x = int(input())
+# t = x // 3600
+# m = (x % 3600) // 60
+# s = x % 60
+# print(t, m, s)
+
+#13
+# m, s = map(int, input().split())
+# print(m * 60 + s)
+
+# 14
+# t, m, s = map(int, input().split())
+# print(t * 3600 + m * 60 + s)
+
+#15
+# x = int(input())
+# t = x // 24
+# h = x % 24
+# print(t, h)
+
+#16
+# h, t = map(int, input().split())
+# print(h * 24 + t)
+
+#17
+# x = int(input())
+# j = x // 12
+# s = x % 12
+# print(j, s)
+
+#18
+# j, s = map(int, input().split())
+# print(j * 12 + s)
+
+#19
+# a, b = map(int, input().split())
+# print(max(a, b))
+
+#20
+# a, b = map(int, input().split())
+# print(min(a, b))
+
+#21
+# a, b, c = map(int, input().split())
+# print(max(a, b, c))
+
+#22
+# a, b, c, d = map(int, input().split())
+# print(min(a, b, c, d))
+
+#23
+# a, b, c, d = map(int, input().split())
+# s = 0
+# if a > 80:
+#     s += a
+# if b > 80:
+#     s += b
+# if c > 80:
+#     s += c
+# if d > 80:
+#     s += d
+# print(s)
+
+#24
+# a, b, c, d = map(int, input().split())
+# s = 1
+# if a < 5:
+#     s *= a
+# if b < 5:
+#     s *= b
+# if c < 5:
+#     s *= c
+# if d < 5:
+#     s *= d
+# print(s)
+
+#25
+# a, b ,c = map(int, input().split())
+# s = 0
+# if a % 2 == 0:
+#     s += a
+# if b % 2 == 0:
+#     s += b
+# if c % 2 == 0:
+#     s += c
+# print(s)
+
+#26
+# a, b ,c = map(int, input().split())
+# s = 1
+# if a % 2 != 0:
+#     s *= a
+# if b % 2 != 0:
+#     s *= b
+# if c % 2 != 0:
+#     s *= c
+# print(s)
+
+#27
+# a, b ,c = map(int, input().split())
+# s = 0
+# if a == 5:
+#     s += 1
+# if b == 5:
+#     s += 1
+# if c == 5:
+#     s += 1
+# print(s)
+
+#28
+# a, b ,c, d = map(int, input().split())
+# s = 0
+# if a % 3 == 0:
+#     s += 1
+# if b % 3 == 0:
+#     s += 1
+# if c % 3 == 0:
+#     s += 1
+# if d % 3 == 0:
+#     s += 1
+# print(s)
+
+#29
+# a, b ,c, d = map(int, input().split())
+# s = 0
+# if a % 11 != 0:
+#     s += a
+# if b % 11 != 0:
+#     s += b
+# if c % 11 != 0:
+#     s += c
+# if d % 11 != 0:
+#     s += d
+# print(s)
+
+#30
+# x = int(input())
+# if x > 10:
+#     print("yes")
+# else:
+#     print("no")
+
+#31
+# x = int(input())
+# if x < 5:
+#     print("yes")
+# else:
+#     print("no")
+
+#32
+# x = int(input())
+# if x % 2 == 0:
+#     print("yes")
+# else:
+#     print("no")
+
+#33
+# a = ("IOI")
+# print(a)
+
+#34
+# a = ("IOI")
+# b = ("IOI")
+# c = ("IOI")
+# print(a)
+# print(b)
+# print(c)
+
+#35
+# x = int(input())
+# for i in range(x):
+#     print("IOI")
+
+#36
+# n = int(input())
+# s = 0
+# for i in range(1, n + 1):
+#     s += i
+# print(s)
+
+#37
+# n = int(input())
+# s = 1
+# for i in range(1, n + 1):
+#     s *= i
+# print(s)
+
+#38
+# n = int(input())
+# s = 0
+# for i in range(n):
+#     s += 100
+# print(s)
+
+#39
+# a, n = map(int, input().split())
+# s = 0
+# for i in range(n):
+#     s += a
+# print(s)
+
+#40
+# n = int(input())
+# result = 1
+# for i in range(n):
+#     result *= 2
+# print(result)
+
+#41
+# a, n = map(int, input().split())
+# print(a ** n)
+
+#42
+# dun = int(input())
+# if dun > 3:
+#     print("Tentssen")
+# else:
+#     print("Unasan")
+
+#43
+# dun = int(input())
+# if dun == 5:
+#     print("Onts")
+# elif dun == 4:
+#     print("Sain")
+# elif dun == 3:
+#     print("Dund")
+# else:
+#     print("Muu")
+
+#44
+# dun = int(input())
+# if dun > 89:
+#     print("A")
+# elif dun > 79:
+#     print("B")
+# elif dun > 69:
+#     print("C")
+# elif dun > 59:
+#     print("D")
+# else:
+#     print("F")
+
+#45
+# n = int(input())
+# if n == 1:
+#     print("Monday")
+# elif n == 2:
+#     print("Tuesday")
+# elif n == 3:
+#     print("Wednesday")
+# elif n == 4:
+#     print("Thursday")
+# elif n == 5:
+#     print("Friday")
+# elif n == 6:
+#     print("Saturday")
+# else:
+#     print("Sunday")
+
+#46
+# sar = int(input())
+# if sar in [3, 4, 5]:
+#     print("Spring")
+# elif sar in [6, 7, 8]:
+#     print("Summer")
+# elif sar in [9, 10, 11]:
+#     print("Autumn")
+# else:
+#     print("Winter")
+
+#47
+# a, b, c = map(int, input().split())
+# if a + b > c and a + c > b and b + c > a:
+#     print("YES")
+# else:
+#     print("NO")
+
+#48
+# n = int(input())
+# for i in range(1, 11):
+#     print(n, "*", i, "=", n * i, sep="")
+
+#49
+# a, n = map(int, input().split())
+# for i in range(1, n + 1):
+#     print(a, "^", i, "=", a ** i, sep="")
+
+#50
+# B, C, D = map(int, input().split())
+# A = B * C - D
+# print(A)
+
+##############  SPOJ 2
+
+#1
+#include <iostream>
+
+#1
+# davhar, haalga = map(int, input().split())
+# n = int(input())
+# a = (n - 1) // haalga + 1
+# b = (n - 1) % haalga + 1
+# print(a, b)
+
+#2
+# davhar, orts, haalga = map(int, input().split())
+# n = int(input())
+# neg_orts = davhar * haalga
+# orts_dugaar = (n - 1) // neg_orts + 1
+# davhar_dugaar = (n - 1) % neg_orts // haalga + 1
+# haalga_dugaar = (n - 1) % haalga + 1
+# print(orts_dugaar, davhar_dugaar, haalga_dugaar)
+
+#3
+# n = int(input())
+# s = n * (n + 1) // 2
+# print(s)
+
+#4# task 54
+# n = int(input())
+# print (((n+1)// 2)** 2)
+
+# task 55
+# n = (input())
+# print(n[0] )
+
+# task 56
+# n = (input())
+# a = 0
+# for i in n:
+#     a +=int(i)
+# print(a)
+
+# task57
+# n = (input())
+# a = 0
+# for i in n :
+#     if int(i) % 2 == 0:
+#         a +=int(i)
+# print(a)
+
+# task 58
+# n = (input())
+# a = 0
+# for i in n :
+#     if int(i) % 2 != 0:
+#         a +=1
+# print(a)
+
+# task 59
+# n , m= input().split()
+# a = n.count(m)
+# print(a) 
+
+# task 60
+# n = [4,6,3,2]
+# print(max(n))
+
+# task 61
+# n = [9,6,4,9]   
+# print(min(n))
+
+# task 62
+# s = input().split()
+# r = s[::-1]
+# res = int(r)
+# print(res)
+
+# task 63
+# n = int(input())
+# a = str(n) [::-1]
+# print(a)
+    
+# task 64
+# n = int(input())
+# if n ** 2 != 0:
+#     print("Yes")
+# else:
+#     print("No")
+
+# task 65
+# n = int(input())
+# while n != 0 and n % 3 == 0:
+#     n = n// 3
+# print(n)
+
+# task 66
+# n = int(input())
+# i = 1
+# while n% i == 0:
+#     n = n // i
+#     if n == 1:
+#         break
+#     i += 1
+# if n ==1:
+#     print(i)
+# else:
+#     print("No")
+
+# task 67
+# a, n = map(int, input().split())
+# while n != 0:
+#     a,n = n, a %n
+# print(a)
+
+# task 68
+# a, b = map(int, input().split())
+# if a == 0 or b == 0:
+#     print(0)
+# else:
+#     x,y = a,b
+#     while b != 0:
+#         a,b = b, a% b
+#     f = a
+#     l = (x // f) * y
+# print(l)
+
+# task 69
+# a, b = map(int, input().split())
+# x, y = a, b
+# while y != 0:
+#     x, y = y, x % y
+# g = x
+# print(f"{a // g}/{b // g}")
+
+# task 70
+# n = int(input())
+# for i in range(n):
+#     print(n, end="")
+# print()  
+
+# task 71
+# n = int(input())
+# for n in range(n):
+#     print(n, end=" ")
+# print()  
+
+# task 72
+# n = int(input())
+# for i in range(9, n -1, -1):
+#     print(i)
+
+# task 73
+# n = int(input())
+# for i in range(n):
+#     for j in range(1, n + 1):
+#         print(j, end="")
+# print()
+
+# task 74
+# n = int(input())
+# row = " ".join(map(str, range(n, 0, -1)))
+# for n in range(n):
+#     print(row)
+
+# task 75
+# n = int(input())
+# for i in range(n, 0, -1):
+#     row = " ".join(map(str, range(1, i + 1)))
+#     print(row)
+
+# task 76
+# n = int(input())
+# for i in range(1, n + 1):
+#     row = " ".join(map(str, range(n, n - i, -1)))
+#     print(row)
+
+# task 77
+# n = int(input())
+# for i in range(n, 0, -1):
+#     row = " ".join(map(str, range(i, 0, -1)))
+#     print(row)
+
+# task 78
+# k = int(input())
+# a = (k + 3) * (k + 2) * (k + 1) // 6
+# print(a)
+
+# task 79
+# a,b,c = map(int, input().split())
+# if a * a + b*b == c*c:
+#     print("Right")
+# elif a*a + b *b < c*c:
+#     print("Obsute")
+# else:
+#     print("Acute")
+
+# task 80
+# a,b, c = map(int, input().split())
+# max_val = a
+# if b >max_val :
+#     max_val = b
+# elif c > max_val :
+#     max_val = c
+# else:
+#     pass
+# lcm = max_val
+# while True:
+#     if lcm % a == 0:
+#         if lcm % b == 0:
+#             if lcm % c == 0:
+#                 print(lcm)
+#                 break
+#             else:
+#                 lcm += max_val
+#         else:
+#             lcm += max_val
+#     else:
+#         lcm += max_val
+
+# task 81
+# a,b = map(int, input().split())
+# while a > 0:
+#     if b > 0:
+#         if a >= b:
+#             side = b
+#             count = a // b
+#             print(side,count)
+#             a = a % b
+#         else:
+#             side = a
+#             count = b // a
+#             print(side, count)
+#             b = b % a
+#     else:
+#         break
+
+# task 82
+# n = int(input())
+# if n > 0 :
+#     new = n * 10 + 1
+#     an = new * new
+#     print(an)
+# else:
+#     print()
+
+# task 83
+# a, b = map(float, input().split())
+# target = a * a + b * b
+# c = target / 2.0
+# while True:
+#     diff = c * c - target
+#     if diff < 0:
+#         diff = -diff
+#     else:
+#         pass
+#     if diff < 0.000001:
+#         break
+#     else:
+#         c = 0.5 * (c + target / c)
+# print(c)
+
+# task 84
+# a, b, c = map(float, input().split())
+# p = (a + b + c) / 2
+# S = (p * (p - a) * (p - b) * (p - c)) ** 0.5
+# print(S)
+
+# task 85
+# L = float(input())
+# PI = 3.141592
+# S = (L ** 2) / (4 * PI)
+# print(S)
+
+# task 86
+# x1, x2 = map(int, input().split())
+# dist1 = ((x1 - x2) ** 2)
