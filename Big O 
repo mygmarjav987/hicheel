@@ -1,0 +1,218 @@
+# o1    1
+
+# a = [1, 2, 3, 4, 5]
+# print(a[0])
+
+# o(n).    2
+
+# numbers = [1, 2, 3, 4, 5]
+# for number in numbers:
+#     print(number)
+
+# o1.      3
+
+# numbers = [10, 20, 30, 40, 50]
+# print(numbers[-1])
+
+# o(n2).      4
+
+# n = int(input("n: "))
+# for i in range(n):
+#     print(i)
+
+# o(n).       5
+
+# for i in range(n):
+#     print(i)
+
+# o(n2).        6
+
+# for i in range(n):
+#     for j in range(n):
+#         print(i, j)
+
+# o(n2).        7
+
+# n = 5
+# for i in range(n):
+#     for j in range(n):
+#         print(i, j)
+# 25 udaa ajillan
+
+# o(n2).           8
+
+# for i in range(n):
+#     for j in range(n):
+#         print(i, j)
+
+# o(n2).          9.     10
+
+# for i in range(n):
+#     print(i)
+# for j in range(n):
+#     print(j)
+
+# o(log n).        11.    12
+
+# 1000
+#  ↓
+# 500
+#  ↓
+# 250
+#  ↓
+# 125
+#  ↓
+# 62
+#  ↓
+# 31
+
+# o(1) + o(n) = o(n).        13
+
+# numbers = [1, 2, 3, 4, 5]
+# print(numbers[0])
+# for number in numbers:
+#     print(number)
+
+# O(n) + O(1) = O(n) big o 2 bn.      14
+
+# for i in range(n):
+#     print(i)
+# print("Hello")
+
+# O(n²) + O(1) = O(n²).       15
+
+# for i in range(n):
+#     for j in range(n):
+#         print(i, j)
+# print("Done")
+
+##################################
+
+#1.1
+
+# age = int(input())
+# if age >= 18:
+#     print("Орох боломжтой")
+# else:
+#     print("Орох боломжгүй")
+
+#1.2
+
+# too = int(input())
+# if too % 2 == 0:
+#     print("tegsh")
+# else:
+#     print("sondgoi")
+
+#1.3
+
+# a, b = map(int, input().split())
+# if a > b:
+#     print(a)
+# elif b > a:
+#     print(b)
+# else:
+#     print("tentsuu")
+
+#1.4
+
+# day = int(input())
+# if day == 1:
+#     print("Даваа")
+# elif day == 2:
+#     print("Мягмар")
+# elif day == 3:
+#     print("Лхагва")
+# elif day == 4:
+#     print("Пүрэв")
+# elif day == 5:
+#     print("Баасан")
+# elif day == 6 or day == 7:
+#     if day == 6:
+#         print("Бямба (Амралтын өдөр)")
+#     else:
+#         print("Ням (Амралтын өдөр)")
+# else:
+#     print("Буруу тоо")
+
+#1.5
+
+# km, hour = map(int, input().split())
+# if km <= 2:
+#     km = 3000
+# else:
+#     km = 3000 + (km -2 ) * 1500
+# if hour >= 22 or hour < 6:
+#     km = km * 1.2
+# print(int(km))
+
+#1.6
+
+# kwh = int(input())
+# total = 0
+# if kwh <= 150:
+#     total = kwh * 100
+# elif kwh <= 300:
+#     total = 150 * 100 + (kwh - 150) * 150
+# else:
+#     price = 150 * 100 + 150 * 150 + (kwh - 300) * 200
+# print(total)
+
+#1.7
+
+# username, password, is_blocked, failed_attempts = input().split()
+# failed_attempts = int(failed_attempts)
+# if is_blocked == "True":
+#     print("Таны эрх хаагдсан байна")
+# elif username == "" or password == "":
+#     print("Мэдээллээ бүрэн оруулна уу")
+# elif username != "admin":
+#     print("Хэрэглэгч олдсонгүй")
+# elif password != "1234":
+#     if failed_attempts >= 2:
+#         print("Эрх хаагдлаа")
+#     else:
+#         print("Нууц үг буруу")
+# else:
+#     print("Амжилттай нэвтэрлээ")
+
+#2.1    1-ээс N хүртэл
+
+# n = int(input())
+# for i in (range(1, n + 1)):
+#     print(i)
+
+#2.2    Тэгш тоонуудын нийлбэр
+
+# n = int(input())
+# niilber = 0
+# for i in range(1, n +1):
+#     if i % 2 == 0:
+#         niilber += i
+# print(niilber)
+
+#2.3    Үржвэрийн хүснэгт
+
+# n = int(input())
+# for i in range(1,11):
+#     print(f"{n} x {i} = {n*i}")
+
+#2.4    
+ 
+# n = int(input())
+# niilber = 0
+# while n <= 100000000:
+#     n += n * 0.12
+#     niilber += 1
+# print(niilber,"jil")
+
+#2.5
+
+# o(log n)
+
+# n = int(input())
+# total = 0
+# while n > 1:
+#     n = n // 2
+#     total +=1
+# print(total)
